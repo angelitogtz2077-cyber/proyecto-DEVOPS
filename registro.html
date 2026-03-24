@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://www.foxracing.com.mx/cdn/shop/files/favicon-196x196_32x32.webp?v=1658250862">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Red+Hat+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Blog BIKER</title>
+</head>
+<body>
+    <header class="header__registro">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo-reg" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">BIKER</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="#" class="navegacion__enlace">Eventos</a>
+                    <a href="#" class="navegacion__enlace">Grupos</a>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="header__texto--registro">
+            <h2 class="no-margin">Ruta Familiar: Morelia - Patzcuaro 2024</h2>
+            <p class="no-margin">Ven y comparte con toda la familia el mundo MTB</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-registro">
+        <main class="blog">
+            <h3 class="centrar-texto">Morelia - Patzcuaro 2024</h3>
+            <div>
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Proporciona tus datos para el evento:</legend>
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label>Nombre completo</label>
+                                <input class="input-text" type="text" id="nombre" placeholder="Tu nombre">
+                            </div>
+                            <div class="campo">
+                                <label>Nick Name</label>
+                                <input class="input-text" id="gamerTag" type="text" placeholder="Tu nick name o gamer tag">
+                            </div>
+
+                            <div class="campo">
+                                <label>Tipo</label>
+                                <select class="formulario-select" id="raza">
+                                    <option selected disabled class="input-text">Selecciona tu modalidad</option>
+                                    <option>MTB</option>
+                                    <option>Ruta</option>
+                                    <option>Pista</option>
+                                </select>
+                            </div>
+
+                            <div class="campo">
+                                <label>Correo</label>
+                                <input class="input-text" id="correo" type="email" placeholder="tucorreo@example.com">
+                            </div>
+
+                            <div class="campo">
+                                <label>Cuentanos un poco de tí:</label>
+                                <textarea class="input-text" id="mensaje"></textarea>
+                            </div>
+                            <div>
+                                <input class="formulario__boton" type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">MTB</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="#" class="navegacion__enlace">Eventos</a>
+                    <a href="#" class="navegacion__enlace">Grupos</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+    <script src="JS/scripts_registro.js">
+    </script>
+</body>
+</html>
